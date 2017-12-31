@@ -12,8 +12,6 @@
 		F1248A2F1FF9727B00455C22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1248A2D1FF9727B00455C22 /* Main.storyboard */; };
 		F1248A311FF9727B00455C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1248A301FF9727B00455C22 /* Assets.xcassets */; };
 		F1248A341FF9727B00455C22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1248A321FF9727B00455C22 /* LaunchScreen.storyboard */; };
-		F1248A3C1FF9822500455C22 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F1248A3B1FF9822500455C22 /* SqueezeNet.mlmodel */; };
-		F1248A3E1FF9843900455C22 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F1248A3D1FF9843900455C22 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +22,6 @@
 		F1248A301FF9727B00455C22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1248A331FF9727B00455C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1248A351FF9727B00455C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1248A3B1FF9822500455C22 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
-		F1248A3D1FF9843900455C22 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +54,6 @@
 		F1248A281FF9727B00455C22 /* ObjectRecognitionCoreML */ = {
 			isa = PBXGroup;
 			children = (
-				F1248A3B1FF9822500455C22 /* SqueezeNet.mlmodel */,
-				F1248A3D1FF9843900455C22 /* Resnet50.mlmodel */,
 				F1248A291FF9727B00455C22 /* AppDelegate.swift */,
 				F1248A2B1FF9727B00455C22 /* ViewController.swift */,
 				F1248A2D1FF9727B00455C22 /* Main.storyboard */,
@@ -143,8 +137,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1248A2C1FF9727B00455C22 /* ViewController.swift in Sources */,
-				F1248A3C1FF9822500455C22 /* SqueezeNet.mlmodel in Sources */,
-				F1248A3E1FF9843900455C22 /* Resnet50.mlmodel in Sources */,
 				F1248A2A1FF9727B00455C22 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
