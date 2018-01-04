@@ -7,7 +7,7 @@ Resnet50 - larger model and more accurate results
 
 SqueezeNet - smaller model, less accurate results, serves as proof of concept
 
-Changing the model
+Accessing the model
 
 ```Swift
 
