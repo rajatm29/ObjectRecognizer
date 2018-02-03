@@ -7,10 +7,11 @@ Resnet50 - larger model and more accurate results
 
 SqueezeNet - smaller model, less accurate results, serves as proof of concept
 
-Accessing the model
-
+Accessing the model:
 ```Swift
 
 guard let model = try? VNCoreMLModel(for: Resnet50().model) else { return }
 
 ```
+
+You can update betweem Resnet50 and SqueezeNet
