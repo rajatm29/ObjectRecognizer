@@ -11,7 +11,6 @@ import CoreML
 import AVKit
 import Vision
 
-
 class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
 
     override func viewDidLoad() {
