@@ -14,4 +14,4 @@ guard let model = try? VNCoreMLModel(for: Resnet50().model) else { return }
 
 ```
 
-You can update betweem Resnet50 and SqueezeNet
+You can update between Resnet50 and SqueezeNet
