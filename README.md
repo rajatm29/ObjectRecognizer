@@ -13,5 +13,3 @@ Accessing the model:
 guard let model = try? VNCoreMLModel(for: Resnet50().model) else { return }
 
 ```
-
-You can update between Resnet50 and SqueezeNet
